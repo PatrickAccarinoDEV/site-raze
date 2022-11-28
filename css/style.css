@@ -1,0 +1,204 @@
+body {
+  max-width: 100%;
+  margin: 0 auto;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../assets/razeteste.jpg);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+p {
+  color: #fff;
+}
+
+img {
+  max-width: 60%;
+}
+
+.funbio {
+  text-transform: uppercase;
+}
+
+.biografia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+
+.origem {
+  grid-column: 2;
+  margin-top: -300px;
+  margin-right: 200px;
+}
+
+.duelist {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "";
+  margin-top: 90px;
+}
+
+.info-inicial {
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 20px;
+  color: #999;
+}
+
+.habilidades {
+  border-top: 2px solid #fff;
+  margin-top: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  background: #000;
+}
+
+.container-hab {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hab1 {
+  width: 70px;
+  margin-right: 40px;
+}
+
+.botao {
+  max-width: max-content;
+  background: none;
+  grid-column: 1;
+}
+
+video {
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  grid-column: 3;
+  width: 600px;
+  columns: 3;
+  margin-top: -110px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  justify-content: center;
+}
+
+.info-hab {
+  display: flex;
+  font-size: 35px;
+  grid-column: 2;
+  margin-top: 20px;
+  text-align: start;
+}
+
+.p-hab {
+  text-transform: none;
+  grid-column: 2;
+  font-size: 15px;
+  text-align: start;
+}
+
+.footer-copy {
+  border-top: 2px solid #fff;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  margin-bottom: -40px;
+  padding: 20px;
+}
+
+.links li {
+  display: inline-block;
+  margin-right: 40px;
+  padding: 10px;
+}
+
+.links {
+  position: fixed;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: #1f2024;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #4a525e;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+a:hover {
+  background: rgb(213, 213, 213);
+  transition: 0.3s;
+}
+
+@media (max-width: 1200px) {
+  .img,
+  video {
+    display: none;
+  }
+  h1 {
+    font-size: 15px;
+  }
+  .botao {
+    width: 30%;
+  }
+  .info-hab,
+  .p-hab {
+    text-align: center;
+  }
+  .duelist {
+    color: #fff;
+  }
+  .teste {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+  }
+  .origem1 {
+    color: #fff;
+    margin-top: 200px;
+    text-align: start;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 800px) {
+  .duelist {
+    color: #fff;
+  }
+  .teste {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+  }
+  .origem1 {
+    color: #fff;
+    margin-top: 200px;
+    text-align: start;
+    width: fit-content;
+  }
+}
